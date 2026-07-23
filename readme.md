@@ -1,3 +1,13 @@
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│                      NOVAMART                                │
+│                                                              │
+│          Retail Rescue Business Analytics Case Study         │
+│                                                              │
+│          SQL • Python • Power BI • Business Intelligence     │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+
 # 📊 Retail Rescue: Executive Business Analytics Case Study
 
 > An end-to-end Business Intelligence & Data Analytics project built using SQL and Power BI to solve real-world business problems for a fictional e-commerce company, **NovaMart**.
