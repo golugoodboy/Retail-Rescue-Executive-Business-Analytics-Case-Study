@@ -125,3 +125,37 @@ Average CLV(customer lifetime value) is R$141.62.
 
 
 
+## RFM Analysis
+NovaMart has 93,358 customers with at least one delivered order, forming the basis for customer segmentation.
+
+Customer purchase frequency ranges from 1 to 15 orders, indicating a mix of one-time buyers and highly loyal customers.
+
+Customer spending ranges from R$0.85 to R$13,440.00, highlighting significant variation in customer value.
+
+The RFM analysis covers transactions from September 2016 through August 2018, providing nearly two years of customer purchase history.
+
+Approximately 57% of NovaMart customers are classified as Lost Customers, indicating a substantial opportunity to improve retention through loyalty programs, personalized promotions, and post-purchase engagement.
+
+Around 40% of customers fall into the Need Attention segment. These customers have purchased recently enough that targeted marketing campaigns could encourage repeat purchases before they become inactive.
+
+Less than 1% of customers qualify as Loyal Customers or Champions, suggesting that while high-value customers exist, they represent only a small portion of the customer base.
+
+The Champion and Loyal Customer segments should receive premium retention strategies because losing even a few high-value customers could disproportionately impact revenue.
+
+Approximately 57% of NovaMart's customers are classified as Lost Customers, representing over R$7.3 million in historical revenue. Improving customer retention could significantly increase repeat purchases and long-term profitability.
+
+Nearly 40% of customers fall into the Need Attention segment. These customers have generated more than R$5.3 million in revenue and should be targeted with personalized marketing campaigns before they become inactive.
+
+Although there are only 11 Champion customers, they spend an average of R$1,239 each—almost 9 times the value of a Lost Customer. Retaining these customers should be a top business priority.
+
+Customers in the At Risk segment have an average customer value of R$253, substantially higher than Lost Customers. Timely win-back campaigns could recover high-value customers before they churn completely.
+
+| Customer Segment          | Customer Profile                                           | Recommended Business Action                                                                      | Business Objective                                     |
+| ------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
+| 🏆 **Champion**           | High spend, frequent purchases, recent activity            | Offer VIP rewards, exclusive discounts, early access to new products, premium customer support   | Maximize retention and increase lifetime value         |
+| ❤️ **Loyal Customer**     | Frequent repeat buyers with strong purchase history        | Launch loyalty programs, personalized recommendations, cross-selling and upselling campaigns     | Increase customer lifetime value                       |
+| 🌱 **Potential Loyalist** | Recent customers beginning to purchase repeatedly          | Send targeted promotions, welcome offers, and product recommendations                            | Convert into Loyal Customers                           |
+| ⚠️ **At Risk**            | Previously active customers who haven't purchased recently | Run win-back campaigns, limited-time discounts, reminder emails, and abandoned customer outreach | Prevent churn and recover valuable customers           |
+| 👀 **Need Attention**     | Moderate-value customers with declining engagement         | Re-engage with personalized emails, product suggestions, and seasonal promotions                 | Encourage another purchase before they become inactive |
+| ❌ **Lost Customer**       | Customers inactive for a long period with low engagement   | Launch reactivation campaigns, survey customer feedback, and offer attractive return incentives  | Recover inactive customers where economically viable   |
+
