@@ -1,326 +1,306 @@
-# 🛒 Retail Rescue – Executive Business Intelligence Case Study
+# 🛒 Retail Rescue – Executive Business Analytics
+
+## 📌 Project Overview
+
+Retail Rescue is an end-to-end Executive Business Analytics project built using the Brazilian Olist E-Commerce dataset.
+
+The project demonstrates the complete analytics lifecycle—from SQL-based data preparation and profiling to Python-based data integration, exploratory data analysis (EDA), executive business analytics, and interactive Power BI dashboards.
+
+The objective is to transform raw transactional data into actionable business insights that support executive decision-making across revenue, customer behavior, product performance, logistics, and operations.
 
 ---
 
-# 📖 Project Overview
+# 🚀 Project Objectives
 
-**Retail Rescue** is an end-to-end Business Intelligence case study developed using the **Olist Brazilian E-Commerce Dataset**.
-
-The project simulates a real consulting engagement for a fictional e-commerce company, **NovaMart**, where the objective is to transform raw transactional data into meaningful business insights that support executive decision-making.
-
-The solution demonstrates the complete Business Intelligence workflow—from SQL-based data preparation and KPI development to interactive Power BI dashboards and strategic business recommendations.
-
----
-
-# 🎯 Business Objectives
-
-The project aims to answer key business questions such as:
-
-- How is the business performing overall?
-- Which customers generate the highest value?
-- Which products drive revenue?
-- How efficient are operations and deliveries?
-- How are sellers distributed across the marketplace?
-- Which business areas require immediate strategic attention?
+- Analyze sales performance and revenue trends
+- Identify high-performing product categories
+- Evaluate customer purchasing behavior
+- Measure seller and operational performance
+- Assess delivery efficiency and logistics costs
+- Generate executive-level business recommendations
+- Build interactive Power BI dashboards
+- Perform Python-based Executive Business Analytics
 
 ---
 
-# 📊 Dataset Overview
+# 🛠️ Tech Stack
 
-| Metric | Value |
-|---------|------:|
-| Orders | 99K |
-| Customers | 96K |
-| Sellers | 3.1K |
-| Product Categories | 71 |
-| Country | Brazil |
+## SQL
+- Data Profiling
+- Data Cleaning
+- Business Analysis
+- Customer RFM Segmentation
+- Revenue Analysis
+- Product Performance Analysis
+- Seller Analysis
 
-Dataset Source:
-- **Olist Brazilian E-Commerce Public Dataset (Kaggle)**
+## Python
+- Pandas
+- NumPy
+- Matplotlib
+- Data Integration
+- Merge Validation
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Executive Business Analytics
 
----
-
-# 🛠️ Technology Stack
-
-- SQL Server
-- Power BI
+## Power BI
 - DAX
-- Microsoft Excel
 - Data Modeling
-- Business Intelligence
-- Data Visualization
+- Interactive Dashboards
+- Executive KPI Reporting
 
 ---
 
-# 📂 Repository Structure
+# 📂 Project Structure
 
-```text
-Retail-Rescue-BI/
+```
+Retail-Rescue-Executive-Business-Analytics/
+
 │
 ├── Data/
+│   ├── customers.csv
+│   ├── orders.csv
+│   ├── order_items.csv
+│   ├── payments.csv
+│   ├── products.csv
+│   ├── sellers.csv
+│   ├── reviews.csv
+│   ├── geolocation.csv
+│   └── category_translation.csv
 │
 ├── SQL/
-│   ├── 01_Revenue_Analysis.sql
-│   ├── 02_Product_Analysis.sql
-│   ├── 03_Customer_Analysis.sql
-│   ├── 04_RFM_Analysis.sql
+│   ├── Data Profiling.sql
+│   ├── Revenue Analysis.sql
+│   ├── Product Analysis.sql
+│   ├── Customer Analysis.sql
+│   ├── Referential Integrity.sql
+│   └── Seller Analysis.sql
+│
+├── Python/
+│   ├── 01_Data_Preparation.ipynb
+│   └── 02_Executive_Business_Analytics.ipynb
 │
 ├── Power BI/
-│   ├── Retail_Rescue.pbix
+│   └── Retail Rescue.pbix
 │
-├── Documentation/
-│   ├── Business Requirements.md
-│   ├── Data Dictionary.md
-│   ├── Data Profiling.md
-│   ├── ER Diagram.md
+├── Dashboard Images/
 │
-├── Dashboard Screenshots/
-│
-├── Presentation/
+├── Business Requirements.pdf
 │
 └── README.md
 ```
 
 ---
 
-# 📈 Dashboard Overview
+# 📊 Dataset
 
-## 🏠 Home
+**Source:** Brazilian Olist E-Commerce Dataset
 
-Introduces the project, business objectives, and dashboard navigation.
+The project integrates multiple relational datasets including:
 
----
+- Customers
+- Orders
+- Order Items
+- Products
+- Sellers
+- Payments
+- Reviews
+- Product Category Translation
 
-## 📊 Executive Dashboard
+Final analytical dataset:
 
-Provides an overall business performance overview.
-
-### KPIs
-
-- Gross Revenue
-- Total Customers
-- Average Customer Lifetime Value (CLV)
-- Average Order Value (AOV)
-- Repeat Purchase Rate
-
-### Visuals
-
-- Monthly Revenue Trend
-- Revenue by State
+- **112,650 Order Item Records**
+- **95,420 Unique Customers**
+- **38 Analytical Features**
 
 ---
 
-## 👥 Customer Analytics Dashboard
+# 🧹 SQL Analysis
 
-Focuses on customer behavior and segmentation.
+The SQL phase focused on:
 
-### KPIs
-
-- Total Customers
-- Average CLV
-- Repeat Purchase Rate
-- Champion Customers
-- Lost Customers
-
-### Visuals
-
-- Customer RFM Segmentation
-- Revenue by Customer Segment
-- Average Customer Value by Segment
-
----
-
-## 📦 Product Performance Dashboard
-
-Evaluates category performance and product contribution.
-
-### KPIs
-
-- Gross Revenue
-- Total Orders
-- Product Categories
-- Average Selling Price
-
-### Visuals
-
-- Revenue by Product Category
-- Orders by Product Category
-- Revenue Contribution
-- Product Performance Analysis
-
----
-
-## 🚚 Operations & Delivery Dashboard
-
-Measures operational efficiency and delivery performance.
-
-### KPIs
-
-- Order Fulfillment Rate
-- Total Orders
-- Delivered Orders
-- Average Delivery Days
-
-### Visuals
-
-- Customer Distribution by State
-- Revenue by State
-- Average Freight Cost Analysis
-
----
-
-## 🏪 Seller & Payment Dashboard
-
-Provides insights into seller distribution and marketplace activity.
-
-### KPIs
-
-- Total Sellers
-- Average Revenue per Seller
-
-### Visuals
-
-- Payment Method Distribution
-- Seller Distribution by State
-- Seller Revenue by State
-
----
-
-## 📋 Executive Summary & Strategic Recommendations
-
-Summarizes the project findings and presents actionable business recommendations.
-
-### High Priority
-
-- Launch targeted retention campaigns for Lost and Need Attention customers.
-- Introduce loyalty programs for Champion and Loyal Customers.
-- Increase investment in high-performing product categories.
-
-### Medium Priority
-
-- Expand marketing efforts in underperforming regions.
-- Improve logistics in areas with longer delivery times.
-- Diversify seller onboarding outside São Paulo.
-
-### Long-Term
-
-- Develop personalized product recommendations.
-- Improve marketplace seller analytics.
-- Build customer lifetime value prediction models.
-
----
-
-# 📌 Key Business Insights
-
-## Revenue
-
-- São Paulo generated the highest marketplace revenue.
-- Revenue was concentrated within a small number of states.
-
----
-
-## Customers
-
-- Approximately **57%** of customers were classified as Lost Customers.
-- Repeat Purchase Rate was approximately **3%**.
-- Champion Customers generated significantly higher average customer value.
-
----
-
-## Products
-
-- Health & Beauty generated the highest revenue.
-- Bed Bath & Table recorded the highest sales volume.
-- Product revenue was concentrated within a few key categories.
-
----
-
-## Operations
-
-- Order Fulfillment Rate exceeded **97%**.
-- Average delivery time remained approximately **12.5 days**.
-- Freight costs varied considerably across states.
-
----
-
-## Sellers
-
-- Seller distribution was heavily concentrated in São Paulo.
-- Credit Card represented approximately **74%** of all marketplace transactions.
-
----
-
-# 📈 Business Impact
-
-This project demonstrates how Business Intelligence can support executive decision-making by:
-
-- Improving customer retention strategies
-- Optimizing product investments
-- Enhancing operational efficiency
-- Supporting marketplace expansion
-- Delivering interactive executive dashboards
-
----
-
-# 💡 Skills Demonstrated
-
-### SQL
-
-- Data Cleaning
-- Data Validation
 - Data Profiling
-- Complex Joins
-- Common Table Expressions (CTEs)
-- Business Analysis
+- Missing Value Analysis
+- Referential Integrity Validation
+- Revenue Analysis
+- Product Performance
+- Customer Analysis
+- Seller Performance
+- Customer RFM Segmentation
 
-### Power BI
+Key SQL Deliverables:
 
-- Dashboard Design
-- Data Modeling
-- DAX Measures
-- KPI Development
-- Interactive Visualizations
-- Report Navigation
-
-### Business Intelligence
-
-- Customer Analytics
-- Product Analytics
-- Operational Analytics
+- Revenue KPIs
+- Product Performance
+- Customer Segmentation
+- Repeat Purchase Analysis
 - Seller Analytics
-- Executive Reporting
-- Business Storytelling
+
+---
+
+# 🐍 Python Analytics
+
+Python was used to transform raw relational data into an analytical dataset.
+
+## Data Preparation
+
+- Data Loading
+- Data Profiling
+- Merge Validation
+- Relationship Validation
+- Missing Value Analysis
+- Feature Engineering
+- Data Quality Report
+
+---
+
+## Feature Engineering
+
+Created business-ready analytical features including:
+
+- Delivery Days
+- Approval Processing Time
+- Purchase Month
+- Purchase Year
+- Purchase Weekday
+- Delivery Status
+- Freight Ratio
+- Item Order Value
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+Performed:
+
+### Univariate Analysis
+
+- Product Price
+- Freight Value
+- Delivery Days
+- Item Order Value
+
+### Bivariate Analysis
+
+- Price vs Freight Cost
+- Product Weight vs Freight Cost
+- Revenue vs Product Categories
+
+### Executive Business Analytics
+
+- Product Performance
+- Seller Performance
+- Customer Analytics
+- Delivery Performance
+- Seasonality Analysis
+- Geographic Analysis
+
+---
+
+# 📈 Power BI Dashboards
+
+The Power BI solution consists of multiple executive dashboards:
+
+- Executive Overview
+- Customer Analytics
+- Product Performance
+- Operations Dashboard
+- Seller Dashboard
+- Executive Recommendations
+
+---
+
+# 🔑 Key Business Insights
+
+## 📌 Revenue
+
+- Health & Beauty generated the highest total revenue.
+- Revenue is influenced by both product pricing and sales volume.
+
+---
+
+## 📌 Logistics
+
+- Product Weight shows a stronger relationship with Freight Cost (**0.61**) than Product Price (**0.41**).
+- Housewares and Furniture categories experience the highest freight burden.
+
+---
+
+## 📌 Operations
+
+- Delivery Success Rate exceeded **97%**.
+- Average delivery time is approximately **12 days**.
+
+---
+
+## 📌 Customer Analytics
+
+- Total Customers: **95,420**
+- Repeat Purchase Rate: **3.05%**
+- Average Orders per Customer: **1.03**
+
+The analysis identified customer retention as NovaMart's largest business opportunity.
+
+---
+
+## 📌 Geographic Insights
+
+São Paulo dominates both:
+
+- Seller Revenue
+- Customer Revenue
+
+making it NovaMart's primary operational hub.
+
+---
+
+# 💼 Executive Recommendations
+
+Based on the analysis:
+
+- Increase investment in high-performing product categories.
+- Optimize logistics for bulky, low-margin products.
+- Launch customer retention and loyalty programs.
+- Expand operations beyond São Paulo using data-driven regional strategies.
+- Develop personalized marketing campaigns for high-value customer segments.
 
 ---
 
 # 📷 Dashboard Preview
 
-> *(Add screenshots of each dashboard here after uploading them to GitHub.)*
-
-Example:
-
-```
-Dashboard Screenshots/
-│
-├── Home.png
-├── Executive.png
-├── Customer.png
-├── Product.png
-├── Operations.png
-├── Seller.png
-├── Summary.png
-```
+*(Insert dashboard screenshots here)*
 
 ---
 
-# 🚀 Future Enhancements
+# 📚 Business Skills Demonstrated
 
-- Predictive Customer Churn Analysis
-- Customer Lifetime Value Prediction
+- Business Analytics
+- Data Cleaning
+- Data Validation
+- Data Modeling
+- Feature Engineering
+- Exploratory Data Analysis
+- Executive Reporting
+- Customer Analytics
+- Product Analytics
+- Logistics Analytics
+- SQL
+- Python
+- Power BI
+- DAX
+
+---
+
+# 🎯 Future Enhancements
+
+Planned future enhancements include:
+
 - Sales Forecasting
-- Dynamic Executive KPI Alerts
-- Advanced Time-Series Analytics
-- Machine Learning Integration
+- Customer Segmentation using Clustering
+- Customer Lifetime Value Prediction
+- Predictive Analytics
+- Machine Learning Models
 
 ---
 
@@ -328,8 +308,6 @@ Dashboard Screenshots/
 
 **GoluGoodboy**
 
-Business Intelligence & Data Analytics Portfolio Project
+Passionate about Data Analytics, Business Intelligence, Machine Learning, and AI.
 
----
-
-# ⭐ If you found this project interesting, consider giving it a star!
+If you found this project helpful, consider giving it a ⭐ on GitHub.
